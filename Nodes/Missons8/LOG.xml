@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LOG" name="LOG服务器" security="2" allowsDefaultBootModule="false" type="empty" ip="45.45.45.45" >
+
+<adminPass pass="Fill2" />
+
+<ports>1433</ports>
+
+<portsForCrack val="1" />
+<trace time="150" />
+<proxy time="2" />
+<firewall level="8" solution="Cooperation" additionalTime="0.15"/>
+ 
+<file path="Logbackup" name="LOG1.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG2.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG4.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG5.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG6.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG7.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG28.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG29.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG30.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG33.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG35.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG36.txt">#BINARY#</file>
+<file path="Logbackup" name="LOG37.txt">Van LOG：IP：92.92.29.29</file>
+
+</Computer>

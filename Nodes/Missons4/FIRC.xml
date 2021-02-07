@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FSERVERIRC" name="F私密IRC" security="1" allowsDefaultBootModule="false" type="empty" ip="9.6.3.3" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433,192</ports>
+
+<portsForCrack val="6" />
+<trace time="-1" />
+ 
+<file path="IRC" name="1.txt">
+X:干什么
+F：我密码忘了
+X：草
+X:20210205
+给我走
+IRC已关闭
+</file>
+</Computer>

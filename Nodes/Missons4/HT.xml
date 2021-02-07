@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HTTC2" name="Hitalk#TC2#" security="1" allowsDefaultBootModule="false" type="empty" ip="HitalkTC2" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="999999999" />
+<trace time="-1" />
+ 
+<file path="Hitalk" name="1.HT">私密模式聊天
+2020.1.5
+Fill：Hi，Mike
+Mike Storing：干什么？
+Fill：帮我升级服务器
+Mike Storing：好吧，我的ip：21.21.21.21
+Fill：联上了
+Fill:白名单也在哦
+私密模式聊天 关闭
+</file>
+</Computer>

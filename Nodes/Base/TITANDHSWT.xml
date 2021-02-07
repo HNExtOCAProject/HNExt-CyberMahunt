@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TITANWT"
+          name="TITAN的白名单"
+          security="6"
+          allowsDefaultBootModule="true"
+          type="1"
+		  ip="77.77.77.155">
+
+<adminPass pass="TITAN"/>
+
+<ports>22, 21, 25, 80, 1433, 554, 6881, 443, 192, 104</ports>
+<portsForCrack val="10"/>
+
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="95"/>
+
+<file path="Whitelist" name="list.txt">216.22.55.187</file>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+
+</Computer>

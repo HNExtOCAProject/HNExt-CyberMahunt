@@ -1,0 +1,44 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'相信Ashley任务</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="10.8">你.....</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="13">可恶</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel kick"Van"</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running....</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel ok</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley我们？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">我们要找Van</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="25">！新闻报道发现一个炸弹爆炸！</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="29">！发现炸弹！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">@Ashley Clayson 怎么办</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">.....</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME# 我知道，我们要拆炸弹</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————强制切换——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————VanIRC——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="41">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="42">你还有时间吗？</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="45">我会给你时间的</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="46">!ANNOUNCEMENT! @channel loading RED.dll</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="47">!ANNOUNCEMENT! @channel 成功</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="49">OPEN</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="51">红屏现在是倒计时</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="53">哈哈哈，删除炸弹的Core.dll</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="55">@Channel 炸弹就会停止</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="57">running......</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="59">!ANNOUNCEMENT! @channel @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="60">什么？你要</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="61">我回来了，任务列表更新！</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="62">@#PLAYERNAME# 炸弹总控 97.97.97.97 哈哈哈</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/7.xml" DelayHost="TITANDHS" Delay="63.0"/>
+</OnConnect>
+
+<Instantly>
+<StartScreenBleedEffect AlertTitle="SAVE EVERYONE" CompleteAction="Actions/red.xml" TotalDurationSeconds="435" DelayHost="TITANDHS" Delay='63'>#PLAYERNAME#
+删除Core文件夹的Core.dll
+GO!GO!GO!</StartScreenBleedEffect>
+</Instantly>
+
+</ConditionalActions>

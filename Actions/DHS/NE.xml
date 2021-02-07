@@ -1,0 +1,20 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'寻找自己</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="10.8">什么</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="13">什么</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 快.....</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running......</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel Ashley，Van被踢出服务器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">我可以寻找自己了，虽然没有人陪伴了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="23">——————第五章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="26">——————抉择 OVER——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="28">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="30">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="32">——————第六章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">——————结局:中立结局自我（AI）——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">!ANNOUNCEMENT! @channel </AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

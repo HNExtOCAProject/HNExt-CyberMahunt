@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FillSERVER" name="FillSERVER" security="1" allowsDefaultBootModule="false" type="empty" ip="98.98.98.98" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="5" />
+<trace time="-1" />
+ 
+<file path="NOTH" name="1.txt">
+额，我的私密服务器
+123.123.5.5
+</file>
+<WhitelistAuthenticatorDaemon Remote="FillSERVERWT"/>
+</Computer>

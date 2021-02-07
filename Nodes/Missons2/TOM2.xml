@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TOM2" name="TOM2" security="1" allowsDefaultBootModule="false" type="empty" ip="1.2.3.5" >
+
+<adminPass pass="TC1" />
+
+<ports>21</ports>
+
+<portsForCrack val="1" />
+<trace time="-1" />
+ 
+
+<file path="HOME" name="私密.txt">
+NOTLI</file>
+</Computer>

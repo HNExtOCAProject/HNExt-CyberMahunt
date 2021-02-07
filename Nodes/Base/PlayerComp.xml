@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# 作战基地" security="3" allowsDefaultBootModule="false" type="empty" ip="216.22.55.187" >
+
+<adminPass pass="KTPlanZQG" />
+
+<ports>443,1433,6881</ports>
+
+<proxy time="5" />
+<portsForCrack val="66666666" />
+<trace time="2.5" />
+<firewall level="6" solution="HelloPLAYER" additionalTime="5.0"/>
+
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+  <file path="bin" name="Opshell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="bin" name="Sequencer.exe">#EXT_SEQUENCER_EXE#</file> 
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+  
+<dlink target="TITANDHS"/>
+</Computer>

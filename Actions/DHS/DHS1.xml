@@ -1,0 +1,24 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'完成测试</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="10.8">你做的还不错.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="13">好了，恭喜你.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 启动TITAN.exe.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running......</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel ok</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley 这是？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">我们的用户信息数据库的访问权限白名单.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="25">现在......我们可以开始了</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="29">@#PLAYERNAME# </AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">怎么了？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">如果有问题就在任务回答NOADMIN</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME#，开始调查吧！</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————第二章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————正式员工——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/2.xml" DelayHost="TITANDHS" Delay="40.0"/>
+</OnConnect>
+
+</ConditionalActions>

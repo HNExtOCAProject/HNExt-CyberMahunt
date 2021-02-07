@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TOM" name="TOM" security="1" allowsDefaultBootModule="false" type="empty" ip="117.2.222.2" >
+
+<adminPass pass="TC1" />
+
+<ports>21</ports>
+
+<portsForCrack val="1" />
+<trace time="2" />
+ 
+
+<file path="HOME" name="私密.txt">
+秘钥"我喜欢我自己的包"的英文
+不要缩写，没有空格,全大写</file>
+<file path="HOME" name="私密2.txt">
+1.2.3.4
+1.2.3.5
+1.2.3.6
+这才是真的</file>
+</Computer>

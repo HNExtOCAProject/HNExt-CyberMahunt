@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+   <Instantly> 
+   <LaunchHackScript Filepath="HackerScripts/Hack.txt" SourceComp="TITANDHS" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </Instantly>
+
+</ConditionalActions>

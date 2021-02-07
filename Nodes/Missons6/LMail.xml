@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LMail" name="L的邮箱" security="1" allowsDefaultBootModule="false" type="empty" ip="L@UU.com" >
+
+<adminPass pass="TC1546545" />
+
+<ports>21</ports>
+
+<portsForCrack val="1" />
+<trace time="-1" />
+ 
+
+<file path="HOME" name="私密.txt">
+STEAM游戏保存
+ip：STEAMTC15</file>
+</Computer>

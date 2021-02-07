@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HTTC1" name="Hitalk#TC1#" security="1" allowsDefaultBootModule="false" type="empty" ip="HitalkTC1" >
+
+<adminPass pass="TC1" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="5" />
+<trace time="30" />
+ 
+<file path="Hitalk" name="1.HT">私密模式聊天
+2020.1.5
+TOM：你来了？
+？？？：对是我
+TOM：好的
+？？？：给 我
+TOM：Van，神，你不要这样说
+Van：那给我
+TOM：好好
+Van：好了，收到了，一会我！神！就会保护你
+私密模式聊天 关闭
+</file>
+<file path="Hitalk" name="私密.HT">
+TOM
+</file>
+</Computer>

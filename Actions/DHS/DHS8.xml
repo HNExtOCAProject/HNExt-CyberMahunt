@@ -1,0 +1,37 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'完成任务</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="10.8">你.....</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="13">可恶</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 太好了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running....</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel Van被踢出服务器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley我们？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">我们要找Van了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="25">running....</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="29">OPEN</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">@Ashley Clayson ？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">.....</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME# 下面，去找到Van的log</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————服务器Log保存到Logbackup——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————成功——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="41">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="42">删除LOCK.dll，这样我们就可以删除他了</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="45">我们时间不多了，看任务列表，找ip</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/8.xml" DelayHost="TITANDHS" Delay="46.0"/>
+</OnConnect>
+
+<Instantly>
+<CancelScreenBleedEffect DelayHost="TITANDHS" Delay="0" />
+</Instantly>
+
+<Instantly>
+<StartScreenBleedEffect AlertTitle="SAVE EVERYONE" CompleteAction="Actions/red.xml" TotalDurationSeconds="300" DelayHost="TITANDHS" Delay='46'>找到Van
+删除LOCK.dll
+GO!GO!GO!</StartScreenBleedEffect>
+</Instantly>
+
+</ConditionalActions>

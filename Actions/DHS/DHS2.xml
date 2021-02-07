@@ -1,0 +1,24 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'back</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="10.8">你做的还不错.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="13">非常好，我没看错人.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 评分A+</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">loading...</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel ok</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley 这是？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">人员评分.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="25">我说过我是CIO</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="29">@#PLAYERNAME# </AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">又怎么了？Ashley</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">我们的服务器好像被人攻击了</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME#，开始调查吧！不要删log（这个任务）</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————第三章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————调查——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/3.xml" DelayHost="TITANDHS" Delay="40.0"/>
+</OnConnect>
+
+</ConditionalActions>

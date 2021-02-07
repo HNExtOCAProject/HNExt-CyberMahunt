@@ -1,0 +1,18 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideRam $#%#$
+delay 2 $#%#$
+writel 警告！ $#%#$
+delay 10 $#%#$
+writel 系统已被追踪 $#%#$
+delay 10 $#%#$
+writel 警告！ $#%#$
+delay 10 $#%#$
+delete /sys x-server.sys $#%#$
+writel 发现异常：x-server.sys已被删除 $#%#$
+delay 5 $#%#$
+writel 已开启警报装置！ $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$

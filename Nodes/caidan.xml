@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="2" name="彩蛋" security="1" allowsDefaultBootModule="false" type="empty" ip="1.1.5.5" >
+
+<adminPass pass="2222626262623233333333" />
+
+<ports>21,22,80,25,104,1433,192,554,443,6881</ports>
+
+<portsForCrack val="10" />
+<trace time="-1" />
+ 
+<file path="Credit" name="彩蛋">
+Ashley Clayson：我再给你一（亿）次机会
+ZQG：666
+资料档案
+编号:#PLAYERNAME#
+姓名:#PLAYERNAME#
+内容配置：AI
+执行人：Ashley Clayson
+</file>
+
+</Computer>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="V2" name="V2炸弹" security="2" allowsDefaultBootModule="false" type="empty" ip="V2" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433,192,104,443,554,6881</ports>
+
+<portsForCrack val="10" />
+<trace time="150" />
+<proxy time="2" />
+<firewall level="8" solution="Coopanythings" additionalTime="0.15"/>
+ 
+<file path="sys" name="Core.dll">#BINARY#</file>
+<file path="sys" name="SCAN.dll">#BINARY#</file>
+<file path="sys" name="OFF.dll">#BINARY#</file>
+<file path="sys" name="OPEN.dll">#BINARY#</file>
+<file path="sys" name="CN.png">#BINARYSMALL#</file>
+<file path="sys" name="Unlocker.dll">#BINARY#</file>
+</Computer>

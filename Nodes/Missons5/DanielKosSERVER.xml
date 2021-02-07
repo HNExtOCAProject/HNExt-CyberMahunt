@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DKS" name="Daniel Kos 私密服务器" security="1" allowsDefaultBootModule="false" type="empty" ip="122.122.121.121" >
+
+<adminPass pass="2222626262623233333333" />
+
+<ports>192,22,21,1433,6881</ports>
+
+<portsForCrack val="5" />
+<trace time="-1" />
+ 
+<file path="SERVER" name="Van.密码">
+北京时间与美国安阿伯的时间相差几小时的英文即密码
+提示10-15之间
+</file>
+</Computer>

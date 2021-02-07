@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="VAN" name="VANAI储存服务器" security="2" allowsDefaultBootModule="false" type="empty" ip="92.92.29.29" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433,192,104,443,554,6881</ports>
+
+<portsForCrack val="10" />
+<trace time="150" />
+<proxy time="2" />
+<firewall level="8" solution="CooperationisnotVAN" additionalTime="0.15"/>
+ 
+<file path="sys" name="LOCK.dll">#BINARY#</file>
+</Computer>

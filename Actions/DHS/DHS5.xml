@@ -1,0 +1,49 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'完成任务</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="10.8">非常好</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="13">我们可以再用密码了.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 启动分析系统.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running......</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel ok</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley 你知道Sean</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">他是Van的信徒.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="25">你问这个干吗？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="29">@#PLAYERNAME# 他正好是下一个目标 </AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">给我他的直播间链接吧</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">.....</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME#，我给你接</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————第四章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————工作_调查行动2 OVER——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="41">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="42">——————第四章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="45">——————工作_调查行动3——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="46">!ANNOUNCEMENT! @channel 转接ORZ直播间</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="47">!ANNOUNCEMENT! @channel 转接成功</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="49">用户'#PLAYERNAME#'进入直播间</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="51">下面</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="53">我们抽取一位幸运观众</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="55">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="57">running......</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="59">!ANNOUNCEMENT! @channel @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="60">什么？</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="61">完成挑战</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="62">我们会实现你的一个愿望</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="63">挑战？</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="64">是的</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="65">任务面板看看吧@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="66">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="67">——————转接......——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="68">——————成功——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="69">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="69">!ANNOUNCEMENT! @channel ORZ直播私密IRC</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="70">任务面板更新</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="72">ok，我们开始吧</AddIRCMessage>
+<AddIRCMessage Author="Sean" TargetComp="TITANDHS" Delay="74">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/6.xml" DelayHost="TITANDHS" Delay="75.0"/>
+</OnConnect>
+
+</ConditionalActions>

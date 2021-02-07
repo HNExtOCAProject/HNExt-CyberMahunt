@@ -1,0 +1,39 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+delay 16.8 $#%#$
+hideRam $#%#$
+delay 2 $#%#$
+showRam $#%#$
+delay 2 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 1 $#%#$
+hideTerminal $#%#$
+delay 1.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+showTerminal $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5$#%#$
+flash $#%#$
+hideNetmap $#%#$
+hideRam $#%#$
+delay 2.5 $#%#$
+flash $#%#$
+hideDisplay $#%#$
+delay 1 $#%#$
+hideTerminal $#%#$
+delay 2 $#%#$
+showDisplay $#%#$
+delay 1 $#%#$
+showTerminal $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 15 $#%#$
+showRam $#%#$

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="Van" />
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/DHS3.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="分析攻击源" reqs="DHS3" >
+分析攻击源2.1.2.1，不要删log！！！！！！！！！不要删log！！！！！！
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>分析攻击源</subject>
+    <body>分析攻击源2.1.2.1，不要删log！！！！！！！！！不要删log！！！！！！
+</body>
+    <attachments>
+	<note title="任务细节">1.回复谁攻击的
+	2不能回复NOADMIN</note>
+    </attachments>
+  </email>
+</mission>

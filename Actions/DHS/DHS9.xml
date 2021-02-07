@@ -1,0 +1,31 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'完成任务</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="10.8">你.....</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="13">不....</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">@Channel 太好了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="17">running....</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="19">!ANNOUNCEMENT! @channel Van删除中....</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">Ashley我们？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">等待</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="25">running....</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="29">我愿意帮你任何事情，只要你放过我</AddIRCMessage>
+<AddIRCMessage Author="Van" TargetComp="TITANDHS" Delay="30">求求你们@Channel</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">.....</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">@#PLAYERNAME# 马上就好</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="35">!ANNOUNCEMENT! @channel 删除成功</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="36">——————第六章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————结局：VAN+（好结局）——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="41">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="42">谢谢你@PLAYERNAME</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="45">IP：GE</AddIRCMessage>
+</OnConnect>
+
+<Instantly>
+<CancelScreenBleedEffect DelayHost="TITANDHS" Delay="0" />
+<RunFunction FunctionName="playCustomSong:Music/Recollection.ogg"/>
+</Instantly>
+
+</ConditionalActions>

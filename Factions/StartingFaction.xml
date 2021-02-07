@@ -1,0 +1,16 @@
+<CustomFaction name="Starting Faction" id="Intro" playerVal="0">
+  
+<Action ValueRequired="10">
+<AddIRCMessage Author="Channel" TargetComp="KTPlanDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="KTPlanDHS" Delay="8.2">用户'#PLAYERNAME#'进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="10.8">哦，你来了啊</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="KTPlanDHS" Delay="13">你为啥把我找回来</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="15">emm，EN公司又来了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="KTPlanDHS" Delay="17">难道又是系统</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="19">对</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="21">所以</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="23">你的第一项任务就是调查，不，你知道</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="KTPlanDHS" Delay="25">好吧</AddIRCMessage>
+<AddIRCMessage Author="ZQG" TargetComp="KTPlanDHS" Delay="29">祝你好运</AddIRCMessage>
+</Action>
+</CustomFaction>

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Mike" name="Mike PC" security="1" allowsDefaultBootModule="false" type="empty" ip="21.21.21.21" >
+
+<adminPass pass="Fill2" />
+
+<ports>22,21,25,80,1433,192</ports>
+
+<portsForCrack val="6" />
+<trace time="-1" />
+ 
+<dlink target="FillSERVERWT"/>
+<dlink target="FillSERVER"/>
+</Computer>

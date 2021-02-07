@@ -1,0 +1,7 @@
+<ConditionalActions>
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/6.xml" TargetComp="TITANDHS"/>
+<RunFunction FunctionName="addFlags:6"/>
+<RunFunction FunctionName="playCustomSong:Music/Fade.ogg"/>
+</Instantly>
+</ConditionalActions>

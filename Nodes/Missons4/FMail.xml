@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FMail" name="Fill的邮箱" security="1" allowsDefaultBootModule="false" type="empty" ip="Fill@UU.com" >
+
+<adminPass pass="TC1" />
+
+<ports>21</ports>
+
+<portsForCrack val="1" />
+<trace time="-1" />
+ 
+
+<file path="HOME" name="私密.txt">
+已重置Hitalk密码
+账户TC2
+密码：Fill2</file>
+</Computer>

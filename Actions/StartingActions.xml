@@ -1,0 +1,40 @@
+<ConditionalActions>
+<OnConnect target="TITANDHS" needsMissionComplete="false">
+<ChangeAlertIcon Target="TITANDHS" Type="irchub" DelayHost="TITANDHS" Delay="5.0"/>
+<RunFunction FunctionName='setHubServer:TITANDHS'/>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="8.2">用户'#PLAYERNAME#'进入了TITAN#2021#DHS</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="10.8">嘿，我叫Ashley Clayson，是泰坦公司CIO.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="13">主要负责数据以及信息管理，你可以叫我Ashley.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="15">我们对你的个人资料很满意.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="17">这个Offer的最终测试希望你能认真的去完成.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="19">加入我们，来一同改变这个世界！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="21">我需要做什么？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="23">我们的数据库中虽然收集了上亿条用户信息.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="25">但很多重要信息都是不完整的.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="29">我们需要更多掌握黑客技能的人来帮助泰坦调查并完善这些数据信息</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="30">你确定这份工作由我来完成？</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="32">当然，更多的信息我后面会解释.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="34">现在你不需要知道太多@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="37">好了，准备好开始Offer的最终测试吧.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="TITANDHS" Delay="39">希望这是一份有意思的工作.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="41">你的测试任务，就是入侵泰坦公司的数据中心.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="42">就当是对我们安全系统的检测</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="44">当然这是有难度的，泰坦系统是首席科学家Tom Blanco教授亲自设计</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="46">入侵的最简单办法是拿到远程网络的管理员秘钥（Password）.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="48">但我不知道管理员是谁，只有他的Toothbook名称：TC191.</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="50">希望你成功拿到秘钥@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="53">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="56">提示Toothbook连接方式为connect Toothbook+id（名称）</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="58">例如connect ToothbookTC191</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="60">Hitalk也是一样</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="62">例如connect Hitalk+id（名称）</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="64">提示结束@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="65">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="66">——————第一章——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="68">——————测试——————</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="69">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Mission/1.xml" DelayHost="TITANDHS" Delay="70.0"/>
+</OnConnect>
+
+</ConditionalActions>

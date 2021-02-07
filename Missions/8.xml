@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="filedeletion" target="VAN" file="LOCK.dll" path="sys"/>
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/DHS9.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="OVER" reqs="DHS8" >
+OVER
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>OVER</subject>
+    <body>45.45.45.45
+</body>
+    <attachments>
+	<note title="任务细节">1.删除sys文件夹的LOCK.dll</note>
+    </attachments>
+  </email>
+</mission>

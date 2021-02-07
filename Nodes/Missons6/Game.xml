@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LGame" name="STEAMTC15游戏库" security="1" allowsDefaultBootModule="false" type="empty" ip="STEAMTC15" >
+
+<adminPass pass="TC1" />
+
+<ports>1433</ports>
+
+<portsForCrack val="1" />
+<trace time="0.0001" />
+ 
+
+<file path="HACKNET" name="Save/L.xml">
+Game：HACKNET
+HACKNETUserName：L
+云存档开启
+</file>
+</Computer>

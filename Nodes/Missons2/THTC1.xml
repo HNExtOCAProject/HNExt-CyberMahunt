@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TBTC1" name="Toothbook#TC1#" security="1" allowsDefaultBootModule="false" type="empty" ip="ToothbookTC1" >
+
+<adminPass pass="TC1" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="0" />
+<trace time="-1" />
+ 
+<file path="Toothbook" name="1.TB">哦，我们的神Van！
+2020.1.5
+
+Tim：什么玩意
+Van：没错，我就是神..
+TOM：谢谢神
+Fill：谢谢神</file>
+<file path="Toothbook" name="2.TB">我已经加入了white.com
+2020.1.6
+
+Tim：哈哈哈
+Tim：Van不是神！
+TOM：住嘴，不许这样说Van神</file>
+
+<file path="Toothbook" name="私密.TB">
+@UU.com
+连接方法例如ZQG@UU.com
+connect ZQG@UU.com</file>
+</Computer>

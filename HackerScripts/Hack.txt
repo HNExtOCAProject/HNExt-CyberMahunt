@@ -1,0 +1,38 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+delay 3 $#%#$
+connect $#%#$
+delay 2 $#%#$
+hideRam $#%#$
+delay 0.5 $#%#$
+hideNetMap $#%#$
+delay 0.5 $#%#$
+hideDisplay $#%#$
+delay 0.5 $#%#$
+clearTerminal $#%#$
+delay 3 $#%#$
+writel NOW $#%#$
+delay 1 $#%#$
+writel I$#%#$
+delay 1 $#%#$
+writel KNOW$#%#$
+delay 1 $#%#$
+writel WHO $#%#$
+delay 1 $#%#$
+writel YOU $#%#$
+delay 1 $#%#$
+writel ARE $#%#$
+delay 3 $#%#$
+writel EnSec Has Kicked Out The intruder…… $#%#$
+delay 1 $#%#$
+writel ?FUCK $#%#$
+delay 2 $#%#$
+writel Wait And See $#%#$
+delete /log * $#%#$
+delay 2 $#%#$
+trackseq $#%#$
+showNetMap $#%#$
+forkbomb $#%#$
+showDisplay $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+showRam $#%#$

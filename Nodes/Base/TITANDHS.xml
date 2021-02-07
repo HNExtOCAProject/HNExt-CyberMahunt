@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TITANDHS"
+          name="TITANDHS"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="1"
+		  ip="77.77.77.77">
+
+<adminPass pass="TITAN"/>
+
+<ports>22, 21, 25, 80, 1433, 554, 6881, 443, 192, 104</ports>
+<portsForCrack val="10"/>
+
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="95"/>
+
+
+
+<DHSDaemon groupName="TITANDHS" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="false" themeColor="67,204,148" allowContractAbbandon="false">
+    <agent name="Ashley Clayson" color="19,248,253"/>
+    <agent name="Van" color="255,255,255"/>
+	<agent name="#PLAYERNAME#" color="92,92,92"/>
+	<agent name="Sean" color="0,255,0"/>
+	<agent name="User2" color="254,140,1"/>
+	<agent name="User21" color="255,0,0"/>
+	<agent name="User3" color="128,0,255"/>
+</DHSDaemon>
+<WhitelistAuthenticatorDaemon Remote="TITANWT"/>
+<dlink target="playerComp"/>
+</Computer>

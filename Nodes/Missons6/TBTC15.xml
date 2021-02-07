@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TBTC15" name="Toothbook#TC15#" security="1" allowsDefaultBootModule="false" type="empty" ip="ToothbookTC15" >
+
+<adminPass pass="TC15" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="0" />
+<trace time="-1" />
+ 
+<file path="Toothbook" name="1.TB">今天也是好天啊
+不过，我还是在PLAY Game
+每日晒地址：L@UU.com</file>
+</Computer>

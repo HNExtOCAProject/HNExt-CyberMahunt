@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HTTC22" name="Hitalk#TC22#" security="1" allowsDefaultBootModule="false" type="empty" ip="HitalkTC22" >
+
+<adminPass pass="2222626262623233333333" />
+
+<ports>192,22,1433</ports>
+
+<portsForCrack val="2" />
+<trace time="-1" />
+ 
+<file path="Hitalk" name="1.HT">
+这飞机配置整得好
+121.121
+</file>
+</Computer>

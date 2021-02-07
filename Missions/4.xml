@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="20210205" />
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/DHS4.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="工作_调查行动1" reqs="DHS4" >
+工作_调查行动1
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>工作_调查行动1</subject>
+    <body>Toothbook：TC231
+</body>
+    <attachments>
+	<note title="任务细节">1.回复密码
+	2不能回复NOADMIN</note>
+    </attachments>
+  </email>
+</mission>

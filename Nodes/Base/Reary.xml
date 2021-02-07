@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Reary" name="Reary PC" security="3" allowsDefaultBootModule="false" type="empty" ip="185.2.1.191" >
+
+<adminPass pass="《》" />
+
+<ports>443,1433,6881,22,21</ports>
+
+<portsForCrack val="5" />
+
+
+<file path="TITAN" name="TITAN.MEM">
+TITAN秘钥是我的常用密码加那个我讨厌的人的名字
+好记多了
+</file>
+
+</Computer>

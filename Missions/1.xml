@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="TITANTC191Tim" />
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/DHS1.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="获取管理员秘钥" reqs="DHS1" >
+获取管理员秘钥
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>获取管理员秘钥</subject>
+    <body>#PLAYERNAME# 获取管理员秘钥
+</body>
+    <attachments>
+	<note title="任务细节">1.回复密码
+	2不能回复NOADMIN</note>
+    </attachments>
+  </email>
+</mission>

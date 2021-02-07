@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="VSERVER" name="Van炸弹控制中枢" security="1" allowsDefaultBootModule="false" type="empty" ip="97.97.97.97" >
+
+<adminPass pass="Van" />
+
+<ports>22,21,1433,80,25,104,192,443,554,6881</ports>
+
+<portsForCrack val="10" />
+<trace time="-1" />
+ 
+<dlink target="V1"/>
+<dlink target="V2"/>
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TMail" name="TOM的邮箱" security="1" allowsDefaultBootModule="false" type="empty" ip="TOM@UU.com" >
+
+<adminPass pass="TC1" />
+
+<ports>25</ports>
+
+<portsForCrack val="1" />
+<trace time="3" />
+ 
+
+<file path="HOME" name="私密.txt">
+home：117.2.222.2
+你的新电脑
+    ——ENTECH</file>
+</Computer>

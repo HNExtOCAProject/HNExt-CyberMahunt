@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FillSERVERWT"
+          name="FillSERVERWT"
+          security="6"
+          allowsDefaultBootModule="true"
+          type="1"
+		  ip="99.99.99.99">
+
+<adminPass pass="TITAN"/>
+
+<ports>22, 21, 1433, 6881, 443, 192</ports>
+<portsForCrack val="5"/>
+
+<proxy time="2"/>
+<firewall level="6"/>
+<trace time="95"/>
+
+<file path="Whitelist" name="list.txt">21.21.21.21</file>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="YES" />
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/NE.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="寻找自己" reqs="NE" >
+寻找自己
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>寻找自己</subject>
+    <body>寻找自己，回复YES
+</body>
+    <attachments>
+	<note title="任务细节">1.回复YES
+	2不能回复NOADMIN</note>
+    </attachments>
+  </email>
+</mission>

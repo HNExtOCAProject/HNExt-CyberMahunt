@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="HTTC191191" name="Hitalk#TC191191#" security="1" allowsDefaultBootModule="false" type="empty" ip="HitalkTC191191" >
+
+<adminPass pass="TC191191" />
+
+<ports>22,21,25,80,1433</ports>
+
+<portsForCrack val="5" />
+<trace time="-1" />
+ 
+<file path="Hitalk" name="1.HT">私密模式聊天
+2020.1.5
+Tim：...........
+Reary：说吧.
+Tim：我想要一些信息.
+Reary：什么信息.
+Tim：公民信息
+Reary：不可能！
+Tim：好吧，那我会亲自拿....
+Tim：什么？你们干什么
+TITAN：Tim，你涉嫌偷盗公司机密
+TITAN：被逮捕了！
+Tim:可恶，那你完了！！！
+Tim Hitalk lost......
+Reary：清除他的Hitalk吧
+TITAN：清除了，账户注销了
+Reary：Toothbook？
+TITAN：不行，有加密，不过已经把ip清除了.
+Reary：什么！那就这样吧
+Reary Hitalk lost......
+TITAN Hitalk lost......
+私密模式聊天 关闭
+</file>
+<file path="Tim" name="私密.HT">
+Tim：哈哈，Reary不知道，这里有个私密的文件
+Tim：如果你看到了这个，帮我干了她
+Tim：当然，你不想干也行
+Tim：你是TITAN的人吧
+Tim：哈哈哈，结束了
+Reary Lost.......
+你的信息还在这里了
+哈哈哈，结束了
+姓名：Reary Till
+生日：1993.2.5
+地址：马达涧区15号
+电话：854-1421-0036
+邮箱：Reary.uu@UU.com
+社会保障号：ZC144244544444444
+常用密码：TITANTC191
+PC：185.2.1.191
+</file>
+</Computer>

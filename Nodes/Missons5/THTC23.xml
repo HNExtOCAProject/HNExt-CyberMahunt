@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TBTC23" name="Toothbook#TC23#" security="1" allowsDefaultBootModule="false" type="empty" ip="ToothbookTC23" >
+
+<adminPass pass="TC23" />
+
+<ports>22,192,1433</ports>
+
+<portsForCrack val="3" />
+<trace time="0.01" />
+ 
+<file path="Toothbook" name="1.TB">额，Sean的直播间
+真是个Van的信徒
+不过，秘钥在我手里哦
+2020.1.5
+
+Tim：...........</file>
+<file path="Toothbook" name="2.TB">122.122
+Hitalk：TC22</file>
+
+</Computer>

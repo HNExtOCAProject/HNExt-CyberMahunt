@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" >
+  <goals>
+<goal type="getstring" target="IDONOTLIKEYOU" />
+  </goals>
+    <missionEnd>loadConditionalActions:Actions/DHS/DHS2.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <posting title="获取密码" reqs="DHS2" >
+获取密码
+这个人的Hitalk：TC1
+Toothbook：TC1
+  </posting>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>获取密码</subject>
+    <body>#PLAYERNAME# 获取秘钥,不要问为什么.....这个人的Hitalk：TC1
+Toothbook：TC1
+</body>
+    <attachments>
+	<note title="任务细节">1.回复密码
+	2不能回复NOADMIN</note>
+    </attachments>
+  </email>
+</mission>

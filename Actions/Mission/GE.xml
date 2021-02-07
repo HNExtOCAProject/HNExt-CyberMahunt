@@ -1,0 +1,7 @@
+<ConditionalActions>
+<Instantly>
+<AddMissionToHubServer MissionFilepath="Missions/GE.xml" TargetComp="TITANDHS"/>
+<RunFunction FunctionName="addFlags:GE"/>
+<RunFunction FunctionName="playCustomSong:Music/Funky_Stars.ogg"/>
+</Instantly>
+</ConditionalActions>

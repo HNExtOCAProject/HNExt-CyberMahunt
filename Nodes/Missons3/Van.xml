@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="VanSERVER" name="Van数据流服务器" security="1" allowsDefaultBootModule="false" type="empty" ip="Van1" >
+
+<adminPass pass="151645454564545454564564156454545415454564154514564156456415345456456456456456Van444444444444Van" />
+
+<ports>21,22,80,25,1433,443,554,104,192,6881</ports>
+
+<portsForCrack val="10" />
+<trace time="15" />
+ 
+
+<file path="home" name="README.txt">
+Van：这不是我的主服务器哦</file>
+</Computer>

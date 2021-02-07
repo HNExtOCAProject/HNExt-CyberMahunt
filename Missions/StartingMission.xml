@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="StartingMission"  activeCheck='true'>
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+
+  <email>
+    <sender>Ashley Clayson</sender>
+    <subject>恭喜加入</subject>
+    <body>
+恭喜你成功加入TITAN公司，点击下方连接吧
+</body>
+    <attachments>
+      <link comp='TITANDHS' />
+    </attachments>
+  </email>
+</mission>

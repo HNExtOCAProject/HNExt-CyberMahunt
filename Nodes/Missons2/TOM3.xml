@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TOM3" name="TOM3" security="1" allowsDefaultBootModule="false" type="empty" ip="1.2.3.6" >
+
+<adminPass pass="TC1" />
+
+<ports>21</ports>
+
+<portsForCrack val="1" />
+<trace time="-1" />
+ 
+
+<file path="HOME" name="私密.txt">
+KE
+节点1.2.3.7</file>
+</Computer>
