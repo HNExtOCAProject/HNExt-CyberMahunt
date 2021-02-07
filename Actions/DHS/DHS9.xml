@@ -19,7 +19,7 @@
 <AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="38">——————结局：VAN+（好结局）——————</AddIRCMessage>
 <AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="39">!ANNOUNCEMENT! @channel</AddIRCMessage>
 <AddIRCMessage Author="Channel" TargetComp="TITANDHS" Delay="41">!ANNOUNCEMENT! @channel</AddIRCMessage>
-<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="42">谢谢你@PLAYERNAME</AddIRCMessage>
+<AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="42">谢谢你@#PLAYERNAME#</AddIRCMessage>
 <AddIRCMessage Author="Ashley Clayson" TargetComp="TITANDHS" Delay="45">IP：GE</AddIRCMessage>
 </OnConnect>
 
